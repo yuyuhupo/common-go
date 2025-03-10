@@ -2,7 +2,10 @@ module github.com/yuyuhupo/common-go
 
 go 1.22.0
 
-require github.com/go-redis/redis/v8 v8.11.5
+require (
+	github.com/go-redis/redis/v8 v8.11.5
+	github.com/pkg/errors v0.9.1
+)
 
 require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
